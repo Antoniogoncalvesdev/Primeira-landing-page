@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#tt{
+    text-align: center;
+    
+    
+}
+#navul{
+    list-style: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nava{
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    display: block;
+
+}
+.nava:hover{
+    color: black;
+    background-color: white;
+}
+#primerio-paragrafo{
+    text-align: center;
+    margin: 10px 0;
+}
+#sobre{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#psobre{
+
+    width: 550px;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+#vinhos{
+    width: 100%;
+    height: 400px;
+
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#hvinho{
+    margin-top: 60px;
+    text-align: center;
+}
+#linha1{
+   
+    width: 100%;
+    height:300px;
+    display: flex;
+    padding-right: 35px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#formm{
+   
+    width: 350px;
+    height: 440px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+}
+#formulario{
+
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: -20px;
+}
+.textt{
+    padding: 5px;
+    margin-top: 10px;
+}
+#botao{
+    padding-inline: 78px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#localizacao{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+}
+#contatos{
+    text-align: center; 
+    display: flex; 
+    padding-top: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#link-topo{
+    position: fixed;
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    bottom: 50px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 3px 3px 20px #333;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-indent: 60px;
+    padding-top: 30px;
+}
+.redes-sociais-footer{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+.redes-sociais-footer img{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#paragrafo-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+@media (max-width: 1067px){
+    #linha1{
+        display: block;
+        
+    }
+    #vinhos{
+        height: 1800px;
+        
+    }
+    #vinhodofrei{
+        margin-left: 40px;
+        padding-bottom: 30px; 
+    }
+    #quinta{
+        margin-left: 40px;
+        padding-bottom: 30px; 
+    }
+    #pergola{
+        margin-left: 50px;
+        padding-bottom: 30px; 
+    }
+    #malbec{
+        margin-left: 50px;
+        padding-bottom: 30px; 
+    }
+    #navegante{
+        margin-left: 40px;
+        padding-bottom: 30px; 
+    }
+    #chianti{
+        margin-left: 45px;
+        padding-bottom: 30px; 
+    }
+}
+@media (max-width: 594px){
+    #navul{
+        display: block;
+        text-align: center;
+    }
+    #primerio-paragrafo{
+        padding: 0 20px;
+    }
+    #psobre{
+        padding: 20px;
+    }
+}

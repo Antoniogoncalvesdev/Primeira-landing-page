@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>M&M Vinhos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="author" content="Antonio Gonçalves"> 
+    <meta name="description" content="Venha conhecer a melhor adega de vinhos de Sergipe!">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+</head>
+<body>
+    <header>
+        <h1 id="tt">M&M Vinhos</h1>
+        <nav>
+            <ul id="navul">
+            <a href="#sobre" class="nava">Sobre nós</a>
+            <a href="#hvinho" class="nava">Vinhos</a>
+            <a href="#formulario" class="nava">Faça seu pedido</a> 
+            <a href="#hlocal" class="nava">Localização</a>
+            <a href="#hcontato" class="nava">Contato</a>
+            </ul>
+        </nav>
+    </header>
+<main>
+        <p id="primerio-paragrafo">Venha pessoalmente ou peça o seu
+        vinho pelo nosso site no menu, em <a href="#formulario">
+        Faça seu pedido</a>
+        </p>
+        <section id="sobre">
+            <div id="psobre">
+                <h2 style="text-align: center; padding-right: 50px;">Sobre nós</h2>
+                <br>
+                <p>
+                Desde o seu início em 20 de agosto de 2000,
+                a adega M&M Vinhos trás degustações diferentes para o 
+                paladar da comunidade de degustadores vinhos. Os dois “M”
+                surge dos nomes dos fundadores da adega, Marcio Rodrigues
+                e Marcelo Rodrigues. Começaram com um sonho e hoje concretizam,
+                possuindo a melhor adega de Sergipe.
+                </p>
+            </div>
+        </section>
+    <h2 id="hvinho">Vinhos</h2>
+    <section id="vinhos">
+        <div id="linha1">
+            <div id="vinhodofrei">
+                <img src="imgs/vinho do frei.jpg" alt="vinho do frei"  style="height: 200px;">
+                <p id="p-vinhodofrei">Vinho do Frei <br> Tinto Suave 900ml <br><del> R$ 8,99 </del>
+                <br>
+                <small>Fora de Estoque :(</small></p>
+            </div>
+            <div id="quinta">
+                <img src="imgs/Quinta.jpg" alt="vinho quinta do morgado" style="height: 200px;">
+                <p>Vinho Quinta do Morgado <br> Tinto Suave  750ml <br> R$ 14,99</p>
+            </div>
+            <div id="pergola">
+                <img src="imgs/Pergola.jpg" alt="vinho pergola" style="height: 200px;" >
+                <p>Vinho Pergola <br> Tinto Suave 750ml <br> R$ 20,00</p>
+           
+            </div>
+            <div id="malbec">
+                <img src="imgs/Concha Y toro Malbec.jpg" alt="vinho concha y toro" style="height: 200px;">
+                <p >Vinho Concha y Toro Malbec <br> Tinto Suave 750ml <br>R$ 30,00</p>
+            </div>
+            <div id="navegante">
+                <img src="imgs/Navegante.jpg" alt="vinho navegante" style="height: 200px;">
+                <p>Vinho Portugues Navegante <br> Tinto Suave 750ml <br>R$95,00</p>
+            </div>
+            <div id="chianti">
+                <img src="imgs/Chianti.jpg" alt="vinho chianti" style="height: 200px;">
+                <p>Vinho Italiano Le Casine Chianti<br> Tinto Suave 750ml <br>R$ 100,00</p>
+            </div>
+        </div>
+    </section>
+    <form action="" id="formulario">
+        <div  id="formm" >
+        <h2 style="margin-top: 20px;" >Faça seu pedido</h2>
+        <div class="textt">
+            <label for="nome">Nome:</label>        
+            <input type="text" id="nome" placeholder="Digite seu nome" required style="padding: 5px; background-color: white;"> 
+        </div>
+        <div class="textt">
+            <label for="celular">Celular:</label>
+            <input type="text" id="celular" placeholder="Digite seu número" required style="padding: 5px; background-color: white;">
+        </div>
+        <div class="textt">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" style="padding: 5px; background-color: white;">
+        </div>
+        <div>
+            <textarea name="Digite seu pedido aqui!" cols="30" rows="10"  required
+           placeholder="Digite seu pedido aqui" style="margin-top: 10px; background-color: white; resize: none;"></textarea>
+        </div>
+        <input type="submit" value="Enviar pedido" id="botao" >
+        </div> 
+    </form>
+    <section >
+        <h2 style="text-align: center; margin-top: 50px;" id="hlocal">Localização</h2>
+        <div id="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31341.872703986504!2d-37.10578918916013!3d-10.907802199999976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab3b2ae3e309f%3A0x7cd85ec02c1939a1!2sVinhos.com!5e0!3m2!1spt-PT!2sbr!4v1696124453454!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2 style="text-align: center; margin-top: 50px;" id="hcontato">Contato</h2>
+        <div id="contatos" >
+            <p style="margin-top: 30px; margin-top: 15px; padding-right: 20px;">E-mail: test@test.com</p>
+            <img src="imgs/instagram.png" alt="logo instagram" style="height: 30px; padding-right: 20px;" >
+            <img src="imgs/whatsapp (2).png" 
+            alt="logo whatsapp" style="height: 30px; padding-right: 20px;">
+        </div>
+    </section>
+</main>
+    <a href="#" id="link-topo">&#8679;</a>
+    <footer>
+        <div class="redes-sociais-footer">
+            <a href="https://github.com/Antoniogoncalvesdev?tab=repositories" target=”_blank” rel=”noopener”>
+                <img src="imgs/github.png" alt="logo github" style="height: 25px;">
+            </a>
+            <a href="https://www.linkedin.com/in/ant%C3%B4nio-gon%C3%A7alves-641353215/" target=”_blank” rel=”noopener”> 
+                <img src="imgs/linkedin (1).png" alt="logo linkedin" style="height: 25px;">
+            </a>
+            <a href="https://contate.me/antoniogoncalves" target=”_blank” rel=”noopener”>
+                <img src="imgs/whatsapp (2).png" alt="logo whatsapp" style="height: 25px;">
+            </a>
+        </div>
+        <div id="paragrafo-footer">
+            <p>by Antônio Gonçalves<br>
+            Copyright©2023. All rights are reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
